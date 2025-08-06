@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator by Priti Kumbhar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <div class="brand">PK's Product</div>
+    <div id="screen" class="screen"></div>
+    <div class="buttons">
+      <button onclick="press('7')">7</button>
+      <button onclick="press('8')">8</button>
+      <button onclick="press('9')">9</button>
+      <button onclick="press('/')">÷</button>
+      <button onclick="press('sin(')">sin</button>
+      <button onclick="press('cos(')">cos</button>
+
+      <button onclick="press('4')">4</button>
+      <button onclick="press('5')">5</button>
+      <button onclick="press('6')">6</button>
+      <button onclick="press('*')">×</button>
+      <button onclick="press('tan(')">tan</button>
+      <button onclick="press('log(')">log</button>
+
+      <button onclick="press('1')">1</button>
+      <button onclick="press('2')">2</button>
+      <button onclick="press('3')">3</button>
+      <button onclick="press('-')">−</button>
+      <button onclick="press('sqrt(')">√</button>
+      <button onclick="press('exp(')">exp</button>
+
+      <button onclick="press('0')">0</button>
+      <button onclick="press('.')">.</button>
+      <button onclick="press('(')">(</button>
+      <button onclick="press(')')">)</button>
+      <button onclick="press('+')">+</button>
+      <button onclick="press('**')">^</button>
+
+      <button class="clear" onclick="clearScreen()">C</button>
+      <button class="equals" onclick="calculate()">=</button>
+      <button onclick="press('pi')">π</button>
+      <button onclick="press('e')">e</button>
+      <button onclick="press('%')">mod</button>
+      <button onclick="press('/')">÷</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
